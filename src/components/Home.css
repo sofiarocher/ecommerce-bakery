@@ -1,0 +1,43 @@
+.home__container {
+    background-color: #dac2b8;
+    height: calc(100vh - 53px);
+    text-align: center;
+}
+
+.home__description {
+    max-width: 850px;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__title--desc {
+    font-size: 48px;
+    color: #ad8371;
+}
+
+.home__para {
+    margin-top: 24px;
+    color: #ad8371;
+}
+
+.home__title--prod {
+    font-size: 40px;
+    color: #ad8371;
+}
+
+.shape {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    opacity: 0.8; 
+  }
+
+.shape-two {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }

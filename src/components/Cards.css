@@ -1,0 +1,53 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #000000;
+    padding: 0 35px;
+}
+
+.wrapper .carousel {
+    white-space: nowrap;
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+}
+
+.icon-left,
+.icon-right {
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.icon-left {
+    left: -23px;
+}
+
+.icon-right {
+    right: -23px;
+}
+
+.carousel img {
+    height: 340px;
+    object-fit: cover;
+    width: calc(100% / 3);
+    margin-left: 14px;
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
+}
