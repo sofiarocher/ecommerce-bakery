@@ -114,5 +114,9 @@
     .carousel-item {
       width: 100%;
     }
-  
+    
+    .card__container {
+      width: 400px;
+      margin: 0 auto;
+    }
   }

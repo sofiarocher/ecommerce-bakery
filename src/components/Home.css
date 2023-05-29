@@ -52,7 +52,21 @@
 
   @media (max-width:550px) {
     .home__description {
-      max-width: 450px;
+      width: 350px;
+      height: 300px;
+    }
+
+    .home__title--desc {
+        font-size: 36px;
+    }
+
+    .home__title--prod {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+    .home__para {
+        font-size: 12px;
     }
 
     .shape, .shape-two {
