@@ -1,0 +1,82 @@
+.shop__container {
+    background-color: #dac2b8;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.shop__title {
+    font-size: 36px;
+    color: #ad8371;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.cake__item {
+    background-color: #ffffff;
+    padding: 10px;
+    max-width: 700px;
+    border-radius: 50px;
+    margin: 24px auto;
+}
+  
+  .cake__content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cake__image {
+    margin-right: 24px;
+    margin-left: 12px;
+  }
+  
+  .cake__image img {
+    width: 150px;
+    border-radius: 30px;
+  }
+  
+  .cake__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+  }
+  .cake__title {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .cake__desc {
+    font-weight: 500;
+    color:#797979;
+    margin-bottom: 12px;
+  }
+
+  .cake__price {
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+
+  .cake__button {
+    display: flex;
+    background-color: #ad8371;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 12px;
+    max-width: 100px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .cake__button--number {
+    margin: 0 12px;
+    font-weight: 500;
+  }
+
+  .button:hover {
+    background-color: white;
+    border-radius: 12px;
+    color:#dac2b8;
+  
+    transition: all 400ms ease;
+  }
