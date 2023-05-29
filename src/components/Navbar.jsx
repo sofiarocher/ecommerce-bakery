@@ -7,11 +7,13 @@ function Navbar() {
     <div className='nav__container'>
         <h2 className='nav__logo'>Shop's Logo</h2>
         <ul className="nav__links">
-            <li className='nav__link'>Home</li>
-            <li className='nav__link'>Our Cakes</li>
-            <li className="nav__link">
+          <Link to="/"><li className='nav__link'>Home</li></Link>
+          <Link to="/"><li className='nav__link'>Our Cakes</li></Link>
+          <Link to="/shop">
+            <li>
                 <button className='nav__button'>Shop Now</button>
             </li>
+          </Link>
         </ul>
     </div>
   )

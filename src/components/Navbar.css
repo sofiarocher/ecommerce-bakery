@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.nav__links a {
+    text-decoration: none;
+}
+
 .nav__link {
     margin-right: 36px;
     color: #bda09c;
@@ -40,4 +44,10 @@
 .nav__button:hover {
     color: white;
     background-color: #ad8371;
+}
+
+@media (max-width: 550px) {
+    .nav__link {
+        display: none;
+    }
 }
