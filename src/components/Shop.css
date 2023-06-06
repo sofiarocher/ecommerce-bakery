@@ -1,91 +1,174 @@
 .shop__wrapper {
   display: flex;
   align-items: start;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: #dac2b8;
 }
 
 .shop__container {
-    background-color: #dac2b8;
-    padding-bottom: 24px;
-    text-align: center;
+  background-color: #dac2b8;
+  padding-bottom: 24px;
+  text-align: center;
 }
 
 .shop__title {
-    font-size: 36px;
-    color: #ad8371;
-    padding-top: 24px;
-    padding-bottom: 24px;
+  font-size: 36px;
+  color: #ad8371;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .cake__item {
-    background-color: #ffffff;
-    padding: 10px;
-    max-width: 700px;
-    border-radius: 50px;
-    margin: 24px auto;
+  background-color: #ffffff;
+  padding: 10px;
+  max-width: 700px;
+  border-radius: 50px;
+  margin: 24px auto;
 }
-  
-  .cake__content {
-    display: flex;
-    align-items: center;
-  }
-  
-  .cake__image {
-    margin-right: 24px;
-    margin-left: 12px;
-  }
-  
-  .cake__image img {
-    width: 150px;
-    border-radius: 30px;
-  }
-  
-  .cake__details {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: start;
-  }
-  .cake__title {
-    font-size: 18px;
-    margin-bottom: 12px;
-  }
 
-  .cake__desc {
-    font-weight: 500;
-    color:#797979;
-    margin-bottom: 12px;
-  }
+.cake__content {
+  display: flex;
+  align-items: center;
+}
 
-  .cake__price {
-    font-size: 16px;
-    font-weight: bold;
+.cake__image {
+  margin-right: 24px;
+  margin-left: 12px;
+}
 
-  }
+.cake__image img {
+  width: 150px;
+  border-radius: 30px;
+}
 
-  .cake__button {
-    display: flex;
-    background-color: #ad8371;
-    color: white;
-    border-radius: 20px;
-    padding: 4px 12px;
-    max-width: 100px;
-    justify-content: center;
-    margin-top: 10px;
-  }
+.cake__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
 
-  .cake__button--number {
-    margin: 0 12px;
-    font-weight: 500;
-  }
+.cake__title {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
 
-  .button:hover {
-    background-color: white;
-    border-radius: 12px;
-    color:#dac2b8;
-  
-    transition: all 400ms ease;
-  }
+.cake__desc {
+  font-weight: 500;
+  color: #797979;
+  margin-bottom: 12px;
+}
 
- 
+.cake__price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cake__button {
+  display: flex;
+  background-color: #ad8371;
+  color: white;
+  border-radius: 20px;
+  padding: 4px 12px;
+  max-width: 100px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.cake__button--number {
+  margin: 0 12px;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: white;
+  border-radius: 12px;
+  color: #dac2b8;
+  transition: all 400ms ease;
+}
+
+.shop__container--two {
+  text-align: center;
+  color: #606060;
+}
+
+.shop__total {
+  background-color: #ffffff;
+  border-radius: 50px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 24px;
+  width: 550px;
+}
+
+.shop__sub--title {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.total__cakes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  max-height: 650px;
+  min-height: 250px;
+  overflow-y: auto;
+  padding: 12px;
+  color: #797979;
+}
+
+.total__cake {
+  display: flex;
+  align-items: center;
+
+}
+
+.total__cake--image {
+  margin-right: 12px;
+}
+
+.total__cake--image img {
+  width: 80px;
+  border-radius: 20px;
+}
+
+.total__cake--details {
+  text-align: start;
+}
+
+.total__cake--title {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.total__cake--price {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.price__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  padding-left: 24px;
+}
+
+.total__price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ad8371;
+}
+
+.total__button {
+  background-color: #ad8371;
+  border: transparent;
+  padding: 8px 24px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: not-allowed;
+}
