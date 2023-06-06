@@ -45,7 +45,8 @@ function Shop() {
   };
 
   return (
-    <div className='shop__container'>
+    <div className='shop__wrapper'>
+      <div className='shop__container'>
       <h1 className="shop__title">
         Our Cakes
       </h1>
@@ -61,14 +62,14 @@ function Shop() {
                 <p className='cake__desc'>{product.description}</p>
                 <h6 className="cake__price">${product.price}</h6>
                 <div className="cake__button">
-                  <AddIcon
-                    className='button__add button'
-                    onClick={() => handleAdd(product.id)}
-                  />
-                  <p className='cake__button--number'>{product.quantity}</p>
                   <RemoveIcon
                     className='button__remove button'
                     onClick={() => handleRemove(product.id)}
+                  />
+                  <p className='cake__button--number'>{product.quantity}</p>
+                  <AddIcon
+                    className='button__add button'
+                    onClick={() => handleAdd(product.id)}
                   />
                 </div>
               </div>
@@ -76,6 +77,15 @@ function Shop() {
           </div>
         ))}
       </div>
+    </div>
+    <div className="shop__container--two">
+        <h1 className="shop__title">
+          Your Total
+        </h1>
+        <div className="shop__total">
+          <h1>Your total is:</h1>
+        </div>
+    </div>
     </div>
   );
 }

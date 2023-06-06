@@ -1,3 +1,10 @@
+.shop__wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  background-color: #dac2b8;
+}
+
 .shop__container {
     background-color: #dac2b8;
     padding-bottom: 24px;
@@ -80,3 +87,5 @@
   
     transition: all 400ms ease;
   }
+
+ 
