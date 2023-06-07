@@ -6,6 +6,7 @@ import RemoveIcon from '@mui/icons-material/Remove';
 
 function Shop() {
   const [productData, setProductData] = useState([]);
+  const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
     const productsWithQuantity = products.map((product) => ({
@@ -52,6 +53,12 @@ function Shop() {
     return total.toFixed(2);
   };
 
+  const handleBuy = () => {
+      setShowPopup(true);
+      setTimeout(() => {
+        setShowPopup(false);
+      }, 3000);
+    };
 
   return (
     <div className="shop__wrapper">
@@ -106,10 +113,15 @@ function Shop() {
          <div className='price__container'>
           <h4>Your total is:</h4>
           <p className="total__price">${calculateTotal()}</p>
-          <button className='total__button button'>Buy</button>
+          <button className='total__button button' onClick={handleBuy}>Buy</button>
          </div>
         </div>
       </div>
+      {showPopup && (
+        <div className="popup">
+          <p>You can't buy our cakes, yet...</p>
+        </div>
+      )}
     </div>
   );
 }
