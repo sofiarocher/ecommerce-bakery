@@ -57,7 +57,7 @@ function Shop() {
       setShowPopup(true);
       setTimeout(() => {
         setShowPopup(false);
-      }, 3000);
+      }, 2000);
     };
 
   return (
@@ -113,15 +113,12 @@ function Shop() {
          <div className='price__container'>
           <h4>Your total is:</h4>
           <p className="total__price">${calculateTotal()}</p>
-          <button className='total__button button' onClick={handleBuy}>Buy</button>
+          <button className='total__button button' onClick={handleBuy}>
+            {showPopup ? "You can't buy yet" : "Buy"}
+          </button>
          </div>
         </div>
       </div>
-      {showPopup && (
-        <div className="popup">
-          <p>You can't buy our cakes, yet...</p>
-        </div>
-      )}
     </div>
   );
 }
