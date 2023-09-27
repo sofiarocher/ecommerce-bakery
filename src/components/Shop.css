@@ -173,3 +173,116 @@
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .shop__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cake__item {
+    max-width: 70%;
+    border-radius: 0;
+    border-radius: 12px;
+  }
+
+  .cake__content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cake__image {
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  .cake__image img {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .cake__details {
+    text-align: center;
+  }
+
+  .cake__title {
+    font-size: 24px;
+  }
+
+  .cake__price {
+    font-size: 14px;
+  }
+
+  .cake__button {
+    margin-top: 10px;
+    margin-left: 145px;
+  }
+  
+  .button:hover {
+    border-radius: 12px;
+  }
+
+  .shop__total {
+    width: 100%;
+  }
+
+  .price__container {
+    width: 100%;
+  }
+
+  .total__price {
+    font-size: 20px;
+  }
+
+  .shop__container--two {
+    margin-bottom: 50px;
+  }
+}
+
+/* Media query para 458px */
+@media screen and (max-width: 458px) {
+  .shop__title {
+    font-size: 28px;
+  }
+
+  .cake__title {
+    font-size: 16px;
+  }
+
+  .cake__desc {
+    font-size: 10px;
+    max-width: 200px;
+    text-align: center;
+    margin-left: 80px;
+  }
+
+  .cake__price {
+    font-size: 14px;
+  }
+
+  .cake__item {
+    max-width: 60%;
+  }
+
+  .cake__button {
+    padding: 4px 8px;
+    max-width: 80px;
+    margin-right: 140px;
+  }
+
+  .total__cake--title {
+    font-size: 12px;
+  }
+
+  .total__cake--price {
+    font-size: 8px;
+  }
+
+  .total__price {
+    padding-left: 8px;
+  }
+  .total__button {
+    padding: 6px 16px;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+}
