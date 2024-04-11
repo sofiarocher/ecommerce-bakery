@@ -1,7 +1,7 @@
 
 # E-commerce Cake Shop
 
-This project is a responsive e-commerce cake shop, designed to provide a seamless and enjoyable cake shopping experience. It targets cake enthusiasts looking for a convenient way to browse and purchase cakes online.
+This project is a responsive e-commerce cake shop, designed to provide an enjoyable cake shopping experience. It targets cake enthusiasts looking for a convenient way to browse and purchase cakes online.
 ## Features
 
 - Dynamic Cake Slider: Utilizes JavaScript to offer a dynamic and interactive browsing experience.
